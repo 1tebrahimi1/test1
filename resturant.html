@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>resturant</title>
 </head>
 <body>
+    <header>
    <h1>کافه رستوران زئوس </h1> 
    <nav>
+    <a href="#menufood">menu</a><br>
+    <a>رزرو میز</a><br>
+    <a>پرداخت انلاین میز</a>
+   </nav>
+   </header>
+   <nav id="menufood">
 <ul>
     <li><a>پیش غذا</a>
         <ol>سوپ</ol>
@@ -79,5 +85,16 @@
     </li>
 </ul>
    </nav>
+   <h2>رزرو میز</h2>
+   <form>
+    <p >تاریخ رزرو میز: </p>
+    <input type="date" required>
+    <p>تعین ساعت رزرو: </p>
+    <input type="time" required><br>
+    <input type="text" placeholder="ثبت نام جهت رزرو" required><br>
+    <input type="tel" placeholder="تلفن تماس" dir="rtl">
+    <br>
+    <button type="submit">ثبت رزرو</button>
+   </form>
 </body>
 </html>
