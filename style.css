@@ -83,6 +83,9 @@
     align-items: center;
     flex-wrap: wrap-reverse;
 }
+.main_slide .home-img{
+    border-radius: 10px 100px / 120px;
+}
 .main_slide div:nth-child(2){
     flex: 1;
     display: flex;
@@ -325,6 +328,27 @@
     flex: 0.5;
     margin-top:30px;
 }
+.main_slide4 .bank-home{
+    direction: rtl;
+    border: thick double  rgb(203, 79, 22);
+    margin-left: 350px;
+    background-color: rgba(252,193,169,0.4);
+    text-align: center;
+   
+}
+.main_slide4 .chef-feed .bank-home .bank{
+     margin-right: 69px;
+    }
+.main_slide4 .chef-feed .controls .security-code{
+    margin-right: 30px;
+}
+.main_slide4 .chef-feed .controls .expiration-month-and-year{
+    margin-right: 4px;
+}
+.main_slide4 .chef-feed .submit{
+    margin-right: 180px;
+}
+
 .main_slide4 .chef{
     flex: 0.5;
     text-align: right;
@@ -337,18 +361,20 @@
 .main_slide4 .chef-feed h2{
     font-size: 32px;
     margin-bottom: 25px;
+    direction: rtl;
 }
 .main_slide4 .chef-feed p{
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 10px;
-
+    direction: rtl;
 }
 .main_slide4 .chef-detail{
     margin-top:20px ;
     display: flex;
     margin:25px 0 ;
     align-items:center ;
+    direction: rtl;
 }
 .main_slide4 .chef-detail img{
     width: 50px;
@@ -369,7 +395,7 @@
     align-items: center;
     padding: 25px 20px;
     background-color: rgb(255,219,185);
-    border-radius: 0 100px 0 0;
+    border-radius: 0 100px 0 50px;
     margin-top: 40px;
     width: 100%;
 }
@@ -446,13 +472,18 @@
     align-items: center;
 }
 .footer-1 .logo img{
-    width: 200px; 
+    width: 100px;
+    border-radius: 100px; 
 }
 .footer-1 p{
     cursor: pointer;
     font-size: 14px;
     padding: 2px;
     color: rgb(255,137,2);
+}
+.footer .map{
+    width: 350px;
+    height: 150px;
 }
 .footer-2{
     text-align: center;
